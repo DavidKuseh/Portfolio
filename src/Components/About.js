@@ -3,7 +3,7 @@ import React from 'react';
 const About = () => {
     return (
         <div>
-            bread
+            <p>I am a full stack web developer with</p>
         </div>
     );
 };
