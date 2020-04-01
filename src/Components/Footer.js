@@ -1,13 +1,10 @@
 import React from 'react';
 
-import styled from 'styled-components'
+// import styled from 'styled-components'
 import twitter from '../Assets/icons/twitter.png'
 import github from '../Assets/icons/github.png'
 import linkedIn from '../Assets/icons/linkedin.png'
 
-const Icons = styled.div`
-
-`
 
 const Footer = () => {
     return (
