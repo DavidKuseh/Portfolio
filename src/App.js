@@ -28,10 +28,6 @@ const Nav = styled.div`
       text-decoration: none;
     }
 
-    .footer {
-      margin: 300px;
-    }
-
   `
 
 function App() {
@@ -48,9 +44,7 @@ function App() {
       <Route exact path = '/' component={Home} />
       <Route exact path = '/projects' component={Projects} />
       <Route exact path = '/about' component={About} />
-      <div className = 'footer'>
       <Footer />
-      </div>
     </div>
   );
 }

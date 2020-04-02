@@ -1,9 +1,11 @@
 import React from 'react';
 
 const About = () => {
+
+
     return (
         <div>
-            <p>I am a full stack web developer with</p>
+            <p>I am a full stack web developer with nsabchfsdbhgcfvbdhasgbchkgasdhgcvbkhgasxvbchjbashjbcjhabjabvjhabvabvfhjsdbvhjbsdhjvbh jdshjkvbhjdsbvhjbdshjkvbhjdsbvdbsjvhbhsjdbvhjdsvbhdjsvbhdjvbhjdsbvhjdsbvhjdsvbhdjsvbdshjvbhsdbv hdjsbvhdsbvhjdsbvhbdshcvkasdbvuhjsdbvjkdsvnbjkdsbvhjbsdkvahnjsbhvbhsbvhjskbvhudsbvhdbvfuiwehgfunvdhjghndsfuiasdbfuisdjnfvidsbuvodsnviuasdbviud bvibdxsvybwedjfvcihsvbcydasbvudasfbnuyiascfyiuasbfisabfsi</p>
         </div>
     );
 };
