@@ -2,13 +2,14 @@
   text-align: center;
   height: 100%;
   overflow: hidden;
-  color: #090C9B;
+  /* color: #090C9B; */
+  font-family:'Forque-M3An', sans-serif ;
 }
 
 @font-face {
   font-family: 'Forque-M3An';
   src: 
-    local('zorque'),
+    local('Forque-M3An'),
     url('../src/Assets/fonts/Forque-M3An.ttf')
     format('truetype');
 }
@@ -49,13 +50,13 @@
 }
 
 html {
-  background-color: white;
+  background-color: #BCB382;
   height: 100%;
-  background: url(../src/Assets/images/background.jpg) no-repeat center center fixed;
+  /* background: url(../src/Assets/images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow: hidden;
+  overflow: hidden; */
 }
 

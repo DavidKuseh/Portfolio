@@ -7,7 +7,7 @@ import linkedIn from '../Assets/icons/linkedin.png'
 
 const FooterStyle = styled.div`
     padding: 30px;
-    position: fixed;
+    position: static;
     left: 0;
     bottom: 0;
     height: 100px;
@@ -17,6 +17,10 @@ const FooterStyle = styled.div`
         a {
             padding: 10px;
         }
+    }
+
+    p {
+        // color: white
     }
 `
 
@@ -29,7 +33,7 @@ const Footer = () => {
                 <a href="https://www.linkedin.com/in/david-kuseh/" rel = "noopener noreferrer" target="_blank"><img src={linkedIn} alt="twitter link" width="60px" height="60px"/></a>
             </div>
             <div>
-                <p>Copyright &copy; 2020 by David Kuseh</p>
+                <p>Copyright&copy;2020 by David Kuseh</p>
             </div>
         </FooterStyle>
     );

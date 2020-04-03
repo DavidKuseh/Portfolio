@@ -23,10 +23,29 @@ const Nav = styled.div`
       width: 500px;
       align-items: center;
       color: #090C9B;
+      font-size: 32px;
+
+      Link {
+        padding: 10px;
+      }
     }
 
     a {
+      text-decoration: underline;
+      padding: 10px;
+      border-radius: 15%;
+    }
+
+    a:hover {
+      background-color: white;
+      color: black;
       text-decoration: none;
+      transition: 0.3s	ease-out;
+      // font-size: 35px;
+    }
+
+    a:visited {
+      color: black;
     }
 
     img {
@@ -44,6 +63,7 @@ function App() {
           <Link to='/' >Home</Link>
           <Link to='/projects'>Projects</Link>
           <Link to='/about' >About</Link>
+          <a href='http://www.google.com' rel = "noopener noreferrer" target="_blank">Resume</a>
         </div>
       </Nav>
       <Route exact path = '/' component={Home} />

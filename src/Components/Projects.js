@@ -1,25 +1,76 @@
 import React from 'react';
 
+import styled from 'styled-components'
 import anywhere from '../Assets/images/anywherefitness.JPG'
 import insightly from '../Assets/images/reactblog.JPG'
 
+const ProjectsStyle = styled.div`
+    a:visited {
+        color: black;
+    }
+
+    .projects {
+        width: 85%;
+        margin: 40px auto;
+    }
+
+    .projects div {
+        display: flex;
+    }
+
+    .project {
+        margin: 60px auto;
+        border: 5px solid black;
+        padding: 15px;
+    }
+
+    .proj {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+
+        h2 {
+            text-decoration: underline;
+            margin: 0 auto;
+        }
+
+        p {
+            width: 70%;
+            margin: 0 auto;
+            font-size: 32px;
+        }
+
+        a {
+            margin-top: 30px;
+            font-size: 20px;
+        }
+    }
+
+`
+
 const Projects = () => {
-
-
     return (
-        <div>
-            <h3>Projects</h3>
-            <div>
-                <a href="https://anywherelanding.now.sh/" rel = "noopener noreferrer" target="_blank"><h2>Anywhere Fitness</h2></a>
-                <p>AnywhereFitness is the all-in-one solution to meet your “on-location” fitness class needs. AnywhereFitness makes it painless for Instructors and Clients alike to hold and attend Fitness classes wherever they might be held. I was part of a small team that developed the backend for the application.</p>
-                <img src={anywhere} alt="anywhere fitness" />
+        <ProjectsStyle>
+            <a href="https://github.com/DavidKuseh"><h3>Projects</h3></a>
+            <div className="projects">
+                <div className="project">
+                    <img src={anywhere} alt="anywhere fitness" height="350px" width="500px"/>
+                    <div className="proj">
+                        <h2>Anywhere Fitness</h2>
+                        <p>A web application that facilitates workout sessions conveniently</p>
+                        <a href="https://anywherelanding.now.sh/" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                    </div>
+                </div>
+                <div className="project">
+                    <img src={insightly} alt="Insightly" height="350px" width="500px"/>
+                    <div className="proj">
+                        <h2>Insightly</h2>
+                        <p>Insightly provides a clutter-free platform for writers to engage with their followers</p>
+                        <a href="https://getinsightly.com/" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                    </div>
+                </div>
             </div>
-            <div>
-                <a href="https://getinsightly.com/" rel = "noopener noreferrer" target="_blank"><h2>Insightly</h2></a>
-                <p>Insightly connects writers with readers by providing a flexible environment for publishing, and then curates reading experiences for readers on the other end of the spectrum based on their preferences. This was my LABS project at Lambda School where as part of a small team we designed and built the entire application from the ground up.</p>
-                <img src={insightly} alt="Insightly"/>
-            </div>
-        </div>
+        </ProjectsStyle>
     );
 };
 
