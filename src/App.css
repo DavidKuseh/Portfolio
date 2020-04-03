@@ -2,6 +2,15 @@
   text-align: center;
   height: 100%;
   overflow: hidden;
+  color: #090C9B;
+}
+
+@font-face {
+  font-family: 'Forque-M3An';
+  src: 
+    local('zorque'),
+    url('../src/Assets/fonts/Forque-M3An.ttf')
+    format('truetype');
 }
 
 .App-logo {
@@ -42,12 +51,11 @@
 html {
   background-color: white;
   height: 100%;
-}
-
-
-  /* background: url(../src/Assets/images/background.jpg) no-repeat center center fixed;
+  background: url(../src/Assets/images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  overflow: hidden; */
+  overflow: hidden;
+}
+

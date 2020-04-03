@@ -22,10 +22,15 @@ const Nav = styled.div`
       margin: 0px 25px;
       width: 500px;
       align-items: center;
+      color: #090C9B;
     }
 
     a {
       text-decoration: none;
+    }
+
+    img {
+      border-radius: 15%;
     }
 
   `
@@ -34,7 +39,7 @@ function App() {
   return (
     <div className="App">
       <Nav>
-        <img src={logo} alt='me'/>
+        <img src={logo} alt='logo'/>
         <div className='link'>
           <Link to='/' >Home</Link>
           <Link to='/projects'>Projects</Link>

@@ -7,11 +7,17 @@ import linkedIn from '../Assets/icons/linkedin.png'
 
 const FooterStyle = styled.div`
     padding: 30px;
-    // position: fixed;
+    position: fixed;
     left: 0;
     bottom: 0;
     height: 100px;
     width: 100%;
+
+    .icons {
+        a {
+            padding: 10px;
+        }
+    }
 `
 
 const Footer = () => {
