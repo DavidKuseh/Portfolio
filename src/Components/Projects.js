@@ -9,6 +9,13 @@ const ProjectsStyle = styled.div`
         color: black;
     }
 
+    p {
+        font-size: 32px;
+        width: 40px;
+        margin: 0 auto;
+        text-decoration: underline;
+    }
+
     .projects {
         width: 85%;
         margin: 40px auto;
@@ -51,7 +58,7 @@ const ProjectsStyle = styled.div`
 const Projects = () => {
     return (
         <ProjectsStyle>
-            <a href="https://github.com/DavidKuseh"><h3>Projects</h3></a>
+            <p>Projects</p>
             <div className="projects">
                 <div className="project">
                     <img src={anywhere} alt="anywhere fitness" height="350px" width="500px"/>

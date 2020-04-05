@@ -2,7 +2,6 @@ import React from 'react'
 import './App.css'
 import {Link, Route} from 'react-router-dom'
 
-import About from './Components/About'
 import Home from './Components/Home'
 import Projects from './Components/Projects'
 import Footer from './Components/Footer'
@@ -20,28 +19,26 @@ const Nav = styled.div`
       display: flex;
       justify-content: space-between;
       margin: 0px 25px;
-      width: 500px;
+      width: 450px;
       align-items: center;
-      color: #090C9B;
+      color: #008DD5;
       font-size: 32px;
 
-      Link {
-        padding: 10px;
-      }
     }
 
     a {
       text-decoration: underline;
       padding: 10px;
       border-radius: 15%;
+      color: black;
     }
 
     a:hover {
-      background-color: white;
+      background-color: #008DD5;
       color: black;
       text-decoration: none;
-      transition: 0.3s	ease-out;
-      // font-size: 35px;
+      transition: 0.5s	ease-out;
+      opacity: 1;
     }
 
     a:visited {
@@ -58,17 +55,15 @@ function App() {
   return (
     <div className="App">
       <Nav>
-        <img src={logo} alt='logo'/>
+        <img src={logo} alt='logo' width='156px' height='77px'/>
         <div className='link'>
           <Link to='/' >Home</Link>
           <Link to='/projects'>Projects</Link>
-          <Link to='/about' >About</Link>
-          <a href='http://www.google.com' rel = "noopener noreferrer" target="_blank">Resume</a>
+          <a href="mailto:kusehdavidS@gmail.com">Contact</a>
         </div>
       </Nav>
       <Route exact path = '/' component={Home} />
       <Route exact path = '/projects' component={Projects} />
-      <Route exact path = '/about' component={About} />
       <Footer />
     </div>
   );

@@ -2,7 +2,7 @@
   text-align: center;
   height: 100%;
   overflow: hidden;
-  /* color: #090C9B; */
+  color: black;
   font-family:'Forque-M3An', sans-serif ;
 }
 
@@ -50,7 +50,7 @@
 }
 
 html {
-  background-color: #BCB382;
+  background-color: white;
   height: 100%;
   /* background: url(../src/Assets/images/background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;

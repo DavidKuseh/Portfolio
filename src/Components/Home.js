@@ -1,23 +1,31 @@
 import React from 'react';
 
 import styled from 'styled-components'
-import setup from '../Assets/images/setup.jpg'
+import me from '../Assets/images/me.jpg'
 
 const Bio = styled.div`
     display: flex;
     justify-content: space-around;
     margin: 60px auto;
     width: 85%;
-    padding: 120px 0;
+    padding: 60px 0;
     height: 400px;
 
     img {
-        border-radius: 20%
+        border-radius: 20%;
+        margin-top: 56px;
+        margin-left: 50px;
     }
 
     .bio {
-        width: 600px;
-        font-size: 68px;
+        width: 900px;
+        font-size: 32px;
+        display: flex;
+    }
+
+    .write-up {
+        display: flex;
+        flex-direction: column;
     }
 `
 
@@ -25,10 +33,11 @@ const Home = () => {
     return (
         <Bio>
             <div className='bio'>
-                <p>Hi! I am David, a Full Stack Web Developer and sports enthusiast </p>
-            </div>
-            <div>
-                <img src={setup} alt='setup' width='350px' height='250px'/>
+                <div className="write-up">
+                    <p>Hi! I am David, a Full Stack Web Developer and sports enthusiast </p>
+                    <p>I am based in Aburi, Ghana. I have skills ranging from vanilla JavaScript, ReactJS, NodeJS, Express to Python. I have had a fair amount of time working remotely in small teams to achieve various goals.</p>
+                </div>
+                <img src={me} alt='me' width='250px' height='250px'/>  
             </div>
         </Bio>
     );
