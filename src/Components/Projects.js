@@ -13,7 +13,6 @@ const ProjectsStyle = styled.div`
         font-size: 32px;
         width: 40px;
         margin: 0 auto;
-        text-decoration: underline;
     }
 
     .projects {
