@@ -23,7 +23,6 @@ const Nav = styled.div`
       align-items: center;
       color: #008DD5;
       font-size: 32px;
-
     }
 
     a {
@@ -55,7 +54,7 @@ function App() {
   return (
     <div className="App">
       <Nav>
-        <img src={logo} alt='logo' width='156px' height='77px'/>
+        <a href="https://portfolio-hwhfx9d6t.now.sh/" rel = "noopener noreferrer"><img src={logo} alt='logo' width='156px' height='77px'/></a> 
         <div className='link'>
           <Link to='/' >Home</Link>
           <Link to='/projects'>Projects</Link>

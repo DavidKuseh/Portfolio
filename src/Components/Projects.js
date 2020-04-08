@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components'
 import anywhere from '../Assets/images/anywherefitness.JPG'
 import insightly from '../Assets/images/reactblog.JPG'
+import usemytools from "../Assets/images/usemytools.JPG"
 import github from '../Assets/icons/github.png'
 
 const ProjectsStyle = styled.div`
@@ -77,9 +78,9 @@ const Projects = () => {
                         <h2>Anywhere Fitness</h2>
                         <p>A web application that facilitates workout sessions conveniently</p>
                         <div className="tech">
-                            <p>ReactJS</p>
-                            <p>NodeJS</p>
-                            <p>ExpressJS</p>
+                            <p>React</p>
+                            <p>Node</p>
+                            <p>Express</p>
                         </div>
                         <a href="https://anywherelanding.now.sh/" rel = "noopener noreferrer" target="_blank">Visit site</a>
                         <a href="https://github.com/BW-Anywhere-Fitness-Nov-18-22/back-end" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
@@ -91,13 +92,26 @@ const Projects = () => {
                         <h2>Insightly</h2>
                         <p>Insightly provides a clutter-free platform for writers to engage with their followers</p>
                         <div className="tech">
-                            <p>ReactJS</p>
+                            <p>React</p>
                             <p>EditorJS</p>
-                            <p>NodeJS</p>
-                            <p>ExpressJS</p>
+                            <p>Node</p>
+                            <p>Express</p>
                         </div>
                         <a href="https://getinsightly.com/" rel = "noopener noreferrer" target="_blank">Visit site</a>
                         <a href="https://github.com/LABS-EU3/react_blog_backend" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
+                    </div>
+                </div>
+                <div className="project">
+                    <img src={usemytools} alt="use my tools" height="350px" width="500px"/>
+                    <div className="proj">
+                        <h2>Use my Tools</h2>
+                        <p>A reliable platform to rent and borrow tools of all kinds</p>
+                        <div className="tech">
+                            <p>React</p>
+                            <p>Java</p>
+                        </div>
+                        <a href="https://usemytoolsonline.netlify.com" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                        <a href="https://github.com/Build-Week-Use-My-Tools/FE-use-my-tools" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
                     </div>
                 </div>
             </div>
