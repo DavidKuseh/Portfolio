@@ -32,7 +32,7 @@ const Bio = styled.div`
         .bio {
             display: flex;
             flex-direction: column;
-            margin-top: -80px;
+            margin-top: -60px;
             font-size: 28px;
         }
 
@@ -43,7 +43,11 @@ const Bio = styled.div`
     }
 
     @media(max-width:550px) {
-        margin-top: 125px;
+        margin-top: 200px;
+    }
+
+    @media(max-width:480px) {
+        margin-top: 180px;
     }
 `
 

@@ -51,8 +51,32 @@ const Nav = styled.div`
     }
 
     @media(max-width:550px) {
+      margin: 0 auto;
       .link{
         margin-left: -5px;
+      }
+      .write-up {
+        margin-top: 40px;
+      }
+    }
+
+    @media(max-width:480px) {
+      margin: 0 auto;
+
+      .link {
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto 30px auto;
+        width: 200px;
+      }
+
+      .write-up {
+        margin-top: 40px;
+      }
+
+      img:nth-child(1) {
+        visibility: hidden;
+        width: 0px;
       }
     }
 
