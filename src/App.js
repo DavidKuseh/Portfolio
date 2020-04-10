@@ -28,16 +28,16 @@ const Nav = styled.div`
     }
 
     a {
-      text-decoration: underline;
-      padding: 10px;
+      text-decoration: none;
+      padding: 5px;
       border-radius: 15%;
       color: black;
     }
 
     a:hover {
-      background-color: white;
+      background-color: #008DD5;
       color: black;
-      text-decoration: none;
+      text-decoration: underline;
       transition: 0.5s	ease-out;
       opacity: 1;
     }
