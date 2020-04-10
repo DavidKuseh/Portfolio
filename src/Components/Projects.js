@@ -95,8 +95,14 @@ const ProjectsStyle = styled.div`
         }
     }
 
-`
+    @media(max-width:480px) {
+        img:nth-child(1) {
+            visibility: hidden;
+            height: 0px;
+        }
+    }
 
+`
 const Projects = () => {
     return (
         <ProjectsStyle>

@@ -48,6 +48,8 @@ const Bio = styled.div`
 
     @media(max-width:480px) {
         margin-top: 180px;
+        margin-bottom: 150px;
+        font-size: 22px;
     }
 `
 
