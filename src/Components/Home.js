@@ -6,7 +6,7 @@ import me from '../Assets/images/me.jpg'
 const Bio = styled.div`
     display: flex;
     justify-content: space-around;
-    margin: 20px auto;
+    margin: 80px auto;
     width: 85%;
     padding: 60px 0;
     height: 400px;
@@ -26,6 +26,24 @@ const Bio = styled.div`
     .write-up {
         display: flex;
         flex-direction: column;
+    }
+
+    @media(max-width:768px) {
+        .bio {
+            display: flex;
+            flex-direction: column;
+            margin-top: -80px;
+            font-size: 28px;
+        }
+
+        img {
+            margin: 0 auto;
+            height: 265px;
+        }
+    }
+
+    @media(max-width:550px) {
+        margin-top: 125px;
     }
 `
 

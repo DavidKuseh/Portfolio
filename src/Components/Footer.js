@@ -19,6 +19,13 @@ const FooterStyle = styled.div`
         }
     }
 
+    @media(max-width:768px) {
+        .icons {
+            margin-left: -40px;
+            margin-top: 45px;
+        }
+    }
+
 `
 
 const Footer = () => {

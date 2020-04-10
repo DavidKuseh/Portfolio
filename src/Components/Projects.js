@@ -7,6 +7,8 @@ import usemytools from "../Assets/images/usemytools.JPG"
 import github from '../Assets/icons/github.png'
 
 const ProjectsStyle = styled.div`
+    margin-top: 140px;
+
     a:visited {
         color: black;
     }
@@ -59,11 +61,31 @@ const ProjectsStyle = styled.div`
 
             p {
             font-size: 17px;
-            color: blue;
+            color: #008DD5;
             }
         }
     }
 
+    @media(max-width:768px) {
+        .project {
+            display: flex;
+            flex-direction: column;
+        }
+
+        img {
+            margin: 15px auto;
+        }
+    }
+
+    @media(max-width:550px) {
+        img:nth-child(1) {
+            width: 400px;
+        }
+
+        .proj img {
+            width: 30px;
+        }
+    }
 
 `
 
@@ -73,7 +95,7 @@ const Projects = () => {
             <p>Projects</p>
             <div className="projects">
                 <div className="project">
-                    <img src={anywhere} alt="anywhere fitness" height="350px" width="500px"/>
+                    <img src={anywhere} alt="anywhere fitness" className="proj-pic" height="350px" width="500px"/>
                     <div className="proj">
                         <h2>Anywhere Fitness</h2>
                         <p>A web application that facilitates workout sessions conveniently</p>

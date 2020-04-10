@@ -11,9 +11,11 @@ import styled from 'styled-components'
 const Nav = styled.div`
     display: flex;
     justify-content: space-between;
-
+    border-bottom: 4px solid black;
     width: 90%;
-    margin: 20px 30px;
+    margin: 0px 30px;
+    position: fixed;
+    background-color: #008DD5;
 
     .link {
       display: flex;
@@ -46,6 +48,12 @@ const Nav = styled.div`
 
     img {
       border-radius: 15%;
+    }
+
+    @media(max-width:550px) {
+      .link{
+        margin-left: -5px;
+      }
     }
 
   `
