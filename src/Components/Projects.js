@@ -51,8 +51,16 @@ const ProjectsStyle = styled.div`
         }
 
         a {
-            margin-top: 30px;
+            margin: 20px auto;
             font-size: 20px;
+            text-decoration:none;
+            width: 80px;
+            border-radius: 40%;
+            padding: 5px;
+        }
+
+        .visit a:hover {
+            background-color: #008DD5;
         }
 
         .tech {
@@ -104,7 +112,9 @@ const Projects = () => {
                             <p>Node</p>
                             <p>Express</p>
                         </div>
-                        <a href="https://anywherelanding.now.sh/" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                        <div className="visit">
+                            <a href="https://anywherelanding.now.sh/" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                        </div>
                         <a href="https://github.com/BW-Anywhere-Fitness-Nov-18-22/back-end" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
                     </div>
                 </div>
@@ -119,7 +129,9 @@ const Projects = () => {
                             <p>Node</p>
                             <p>Express</p>
                         </div>
-                        <a href="https://getinsightly.com/" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                        <div className="visit">
+                            <a href="https://getinsightly.com/" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                        </div>
                         <a href="https://github.com/LABS-EU3/react_blog_backend" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
                     </div>
                 </div>
@@ -132,7 +144,9 @@ const Projects = () => {
                             <p>React</p>
                             <p>Java</p>
                         </div>
-                        <a href="https://usemytoolsonline.netlify.com" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                        <div className="visit">
+                            <a href="https://usemytoolsonline.netlify.com" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                        </div>
                         <a href="https://github.com/Build-Week-Use-My-Tools/FE-use-my-tools" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
                     </div>
                 </div>

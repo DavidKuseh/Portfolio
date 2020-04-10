@@ -35,7 +35,7 @@ const Nav = styled.div`
     }
 
     a:hover {
-      background-color: #008DD5;
+      background-color: white;
       color: black;
       text-decoration: none;
       transition: 0.5s	ease-out;
