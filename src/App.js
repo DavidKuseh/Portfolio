@@ -12,8 +12,8 @@ const Nav = styled.div`
     display: flex;
     justify-content: space-between;
     border-bottom: 4px solid black;
-    width: 90%;
-    margin: 0px 30px;
+    width: 100%;
+    margin: 0 auto;
     position: fixed;
     background-color: #008DD5;
 
