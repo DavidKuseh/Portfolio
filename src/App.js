@@ -90,6 +90,7 @@ function App() {
         <div className='link'>
           <Link to='/' >Home</Link>
           <Link to='/projects'>Projects</Link>
+          <a href="https://1drv.ms/b/s!AhtH5iCnHHmvlQn7nRAVj5w-Z0fs" rel = "noopener noreferrer" target="_blank">Resume</a>
           <a href="mailto:kusehdavidS@gmail.com">Contact</a>
         </div>
       </Nav>
