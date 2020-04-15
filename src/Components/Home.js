@@ -12,7 +12,7 @@ const Bio = styled.div`
     height: 400px;
 
     img {
-        border-radius: 20%;
+        border-radius: 50%;
         margin-top: 56px;
         margin-left: 50px;
     }
@@ -59,7 +59,7 @@ const Home = () => {
             <div className='bio'>
                 <div className="write-up">
                     <p>Hi! I am David Kuseh, a Full Stack Web Developer and sports enthusiast </p>
-                    <p>I am based in Accra, Ghana. I have skills ranging from vanilla JavaScript, ReactJS, NodeJS, Express to Python. I have had a fair amount of time working remotely in small teams to achieve various goals.</p>
+                    <p>I am based in Accra, Ghana. I have skills ranging from vanilla JavaScript, ReactJS, NodeJS, Express to REST APIs. I have had a fair amount of time working remotely in small teams to achieve various goals.</p>
                 </div>
                 <img src={me} alt='me' width='250px' height='250px'/>  
             </div>

@@ -29,7 +29,7 @@ const Nav = styled.div`
 
     a {
       text-decoration: none;
-      padding: 5px;
+      padding: 15px;
       border-radius: 15%;
       color: black;
     }
@@ -86,7 +86,7 @@ function App() {
   return (
     <div className="App">
       <Nav>
-        <a href="https://portfolio-hwhfx9d6t.now.sh/" rel = "noopener noreferrer"><img src={logo} alt='logo' width='156px' height='77px'/></a> 
+        <a href="http://davidkuseh.me/" rel = "noopener noreferrer"><img src={logo} alt='logo' width='156px' height='77px'/></a> 
         <div className='link'>
           <Link to='/' >Home</Link>
           <Link to='/projects'>Projects</Link>
