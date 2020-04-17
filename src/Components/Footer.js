@@ -32,9 +32,9 @@ const Footer = () => {
     return (
         <FooterStyle>
             <div className='icons'>
-                <a href="https://twitter.com/DKuseh" rel = "noopener noreferrer" target="_blank"><img src={twitter} alt="twitter link" width="60px" height="60px"/></a>
-                <a href="https://github.com/DavidKuseh" rel = "noopener noreferrer" target="_blank"><img src={github} alt="twitter link" width="60px" height="60px"/></a>
-                <a href="https://www.linkedin.com/in/david-kuseh/" rel = "noopener noreferrer" target="_blank"><img src={linkedIn} alt="twitter link" width="60px" height="60px"/></a>
+                <a href="https://twitter.com/DKuseh" rel = "noopener noreferrer" target="_blank"><img src={twitter} alt="twitter link" width="25px" height="25px"/></a>
+                <a href="https://github.com/DavidKuseh" rel = "noopener noreferrer" target="_blank"><img src={github} alt="twitter link" width="25px" height="25px"/></a>
+                <a href="https://www.linkedin.com/in/david-kuseh/" rel = "noopener noreferrer" target="_blank"><img src={linkedIn} alt="twitter link" width="25px" height="25px"/></a>
             </div>
         </FooterStyle>
     );

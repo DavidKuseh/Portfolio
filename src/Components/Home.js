@@ -6,7 +6,8 @@ import me from '../Assets/images/me.jpg'
 const Bio = styled.div`
     display: flex;
     justify-content: space-around;
-    margin: 80px auto;
+    margin: 0 auto;
+    margin-top: 70px;
     width: 85%;
     padding: 60px 0;
     height: 400px;
@@ -58,8 +59,8 @@ const Home = () => {
         <Bio>
             <div className='bio'>
                 <div className="write-up">
-                    <p>Hi! I am David Kuseh, a Full Stack Web Developer and sports enthusiast </p>
-                    <p>I am based in Accra, Ghana. I have skills ranging from vanilla JavaScript, ReactJS, NodeJS, Express to REST APIs. I have had a fair amount of time working remotely in small teams to achieve various goals.</p>
+                    <p>Hi! I am David Kuseh, a Full Stack Web Developer based in Accra, Ghana. </p>
+                    <p>I have skills ranging from vanilla JavaScript, ReactJS, NodeJS, Express to REST APIs. When I am not working on projects I avidly follow various sporting events.</p>
                 </div>
                 <img src={me} alt='me' width='250px' height='250px'/>  
             </div>

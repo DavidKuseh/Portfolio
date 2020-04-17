@@ -42,12 +42,13 @@ const ProjectsStyle = styled.div`
         h2 {
             text-decoration: underline;
             margin: 0 auto;
+            font-size: 32px;
         }
 
         p {
             width: 70%;
             margin: 0 auto;
-            font-size: 32px;
+            font-size: 25px;
         }
 
         a {
@@ -59,7 +60,14 @@ const ProjectsStyle = styled.div`
             padding: 5px;
         }
 
-        .visit a:hover {
+        .visit {
+            display: flex;
+            justify-content: space-between;
+            width:30%;
+            margin: 0 auto;
+        }
+
+        .visit a:nth-child(1):hover {
             background-color: #008DD5;
         }
 
@@ -120,8 +128,8 @@ const Projects = () => {
                         </div>
                         <div className="visit">
                             <a href="https://anywherelanding.now.sh/" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                            <a href="https://github.com/BW-Anywhere-Fitness-Nov-18-22/back-end" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
                         </div>
-                        <a href="https://github.com/BW-Anywhere-Fitness-Nov-18-22/back-end" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
                     </div>
                 </div>
                 <div className="project">
@@ -137,8 +145,8 @@ const Projects = () => {
                         </div>
                         <div className="visit">
                             <a href="https://getinsightly.com/" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                            <a href="https://github.com/LABS-EU3/react_blog_backend" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
                         </div>
-                        <a href="https://github.com/LABS-EU3/react_blog_backend" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
                     </div>
                 </div>
                 <div className="project">
@@ -152,8 +160,8 @@ const Projects = () => {
                         </div>
                         <div className="visit">
                             <a href="https://usemytoolsonline.netlify.com" rel = "noopener noreferrer" target="_blank">Visit site</a>
+                            <a href="https://github.com/Build-Week-Use-My-Tools/FE-use-my-tools" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
                         </div>
-                        <a href="https://github.com/Build-Week-Use-My-Tools/FE-use-my-tools" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
                     </div>
                 </div>
             </div>
