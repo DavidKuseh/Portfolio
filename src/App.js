@@ -5,7 +5,7 @@ import {Link, Route} from 'react-router-dom'
 import Home from './Components/Home'
 import Projects from './Components/Projects'
 import Footer from './Components/Footer'
-import logo from '../src/Assets/images/logo.jpg'
+import logo from '../src/Assets/icons/logo.png'
 import styled from 'styled-components'
 
 const Nav = styled.div`
@@ -27,19 +27,27 @@ const Nav = styled.div`
       font-size: 32px;
     }
 
+    .logo {
+      display: flex;
+      width: 250px;
+
+      p {
+        text-decoration: none;
+        font-size: 32px;
+      }
+    }
+
     a {
+      display: flex;
       text-decoration: none;
       padding: 15px;
       border-radius: 15%;
       color: black;
     }
 
-    a:hover {
-      background-color: #008DD5;
+    a:nth-child(2):nth-child(5) :hover {
       color: black;
       text-decoration: underline;
-      transition: 0.5s	ease-out;
-      opacity: 1;
     }
 
     a:visited {
@@ -86,9 +94,13 @@ function App() {
   return (
     <div className="App">
       <Nav>
-        <a href="http://davidkuseh.me/" rel = "noopener noreferrer"><img src={logo} alt='logo' width='156px' height='77px'/></a> 
+        <div className="logo">
+          <a href="http://davidkuseh.me/" rel = "noopener noreferrer"><img src={logo} alt='logo' width='76px' height='77px'/>
+          <p>Dev Dave</p>
+          </a> 
+        </div>
         <div className='link'>
-          <Link to='/' >Home</Link>
+          <Link to='/'>Home</Link>
           <Link to='/projects'>Projects</Link>
           <a href="https://1drv.ms/b/s!AhtH5iCnHHmvlQn7nRAVj5w-Z0fs" rel = "noopener noreferrer" target="_blank">Resume</a>
           <a href="mailto:kusehdavidS@gmail.com">Contact</a>
