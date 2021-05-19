@@ -145,7 +145,7 @@ const Projects = () => {
                         </div>
                         <div className="visit">
                             <a href="https://getinsightly.com/" rel = "noopener noreferrer" target="_blank">Visit site</a>
-                            <a href="https://github.com/LABS-EU3/react_blog_backend" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
+                            <a href="https://github.com/LABS-EU3/react_blog_frontend" rel = "noopener noreferrer" target="_blank"><img src={github} alt="github" width="30px" height="30px"/></a>
                         </div>
                     </div>
                 </div>
