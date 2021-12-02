@@ -95,7 +95,7 @@ function App() {
     <div className="App">
       <Nav>
         <div className="logo">
-          <a href="http://davidkuseh.me/" rel = "noopener noreferrer"><img src={logo} alt='logo' width='76px' height='77px'/>
+          <a href="portfolio-davidkuseh.vercel.app" rel = "noopener noreferrer"><img src={logo} alt='logo' width='76px' height='77px'/>
           <p>Dev Dave</p>
           </a> 
         </div>
